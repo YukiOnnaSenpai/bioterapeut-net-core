@@ -1,0 +1,17 @@
+C:\Users\Wicked Witch\source\repos\BioterapeutDAL\DAO\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Wicked Witch\source\repos\BioterapeutDAL\DAO\obj\Debug\netcoreapp3.1\DAO.csprojAssemblyReference.cache
+C:\Users\Wicked Witch\source\repos\BioterapeutDAL\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfoInputs.cache
+C:\Users\Wicked Witch\source\repos\BioterapeutDAL\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfo.cs
+C:\Users\Wicked Witch\source\repos\BioterapeutDAL\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\bin\Debug\netcoreapp3.1\DAO.deps.json
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\bin\Debug\netcoreapp3.1\DAO.dll
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\bin\Debug\netcoreapp3.1\DAO.pdb
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\obj\Debug\netcoreapp3.1\DAO.csprojAssemblyReference.cache
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfoInputs.cache
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfo.cs
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.CopyComplete
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\obj\Debug\netcoreapp3.1\DAO.dll
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAO\obj\Debug\netcoreapp3.1\DAO.pdb

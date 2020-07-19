@@ -1,0 +1,12 @@
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Wicked Witch\source\repos\Bioterapeut\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
