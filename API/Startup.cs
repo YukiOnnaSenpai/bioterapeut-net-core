@@ -1,4 +1,3 @@
-using API.Controllers;
 using API.Dao;
 using API.Dao.Converter;
 using API.Services;
@@ -10,7 +9,6 @@ using BioterapeutDAL.Repository.Implementations.Classes;
 using DAO.Converters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,8 +28,8 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<BioterapeutContext>(options => options.UseSqlServer(@"Data Source = DESKTOP-UG4V85N; Initial Catalog = Bioterapeut.NET; Integrated Security=SSPI;"));
-            //controllers
+            //dbContext
+            services.AddDbContext<BioterapeutContext>(options => options.UseSqlServer(@"Data Source = ; Initial Catalog = ; Integrated Security=SSPI;"));
 
             //converters
             services.AddSingleton<IConverter<Appointment, AppointmentDao>, AppointmentConverter>();
@@ -41,6 +39,7 @@ namespace API
             services.AddSingleton<IConverter<RelationUserAppointment, RelationUADao>, RelationUAConverter>();
             services.AddSingleton<IConverter<Merchendise, MerchendiseDao>, MerchendiseConverter>();
             services.AddSingleton<IConverter<LabelTranslation, LabelTranslationDao>, LabelTranslationConverter>();
+
             //services
             services.AddSingleton<IService<AppointmentDao>, AppointmentService>();
             services.AddSingleton<IService<LabelDao>, LabelService>();
@@ -50,6 +49,7 @@ namespace API
             services.AddSingleton<IService<RelationUADao>, RelationService>();
             services.AddSingleton<IService<UserDao>, UserService>();
 
+            //repositories
             services.AddSingleton<IRepository<Appointment, int>, AppointmentImpl>();
             services.AddSingleton<IRepository<RelationUserAppointment, int>, RelationUserAppointmentImpl>();
             services.AddSingleton<IRepository<Location, int>, LocationImpl>();
@@ -57,6 +57,7 @@ namespace API
             services.AddSingleton<IRepository<ApplicationUser, int>, ApplicationUserImpl>();
             services.AddSingleton<IRepository<Label, int>, LabelImpl>();
             services.AddSingleton<IRepository<LabelTranslation, int>, LabelTranslationImpl>();
+
             services.AddControllers();
             
         }

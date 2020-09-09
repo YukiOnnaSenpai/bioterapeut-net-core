@@ -9,7 +9,7 @@ namespace DAL.Model
         public BioterapeutContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<BioterapeutContext>();
-            optionsBuilder.UseSqlServer(@"Data Source = DESKTOP-UG4V85N; Initial Catalog = Bioterapeut.NET; Integrated Security=SSPI;");
+            optionsBuilder.UseSqlServer(@"Data Source = ; Initial Catalog = ; Integrated Security=SSPI;");
 
             return new BioterapeutContext(optionsBuilder.Options);
         }

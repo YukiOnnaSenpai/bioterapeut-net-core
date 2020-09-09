@@ -20,10 +20,10 @@ namespace BioterapeutDAL.Repository.Implementations.Classes
         public override ApplicationUser GetById(int id)
         {
             context.Database.OpenConnection();
-            ApplicationUser queriedValue = context.Set<ApplicationUser>().Where(e => e.Id == id).AsQueryable().FirstOrDefault();
+            ApplicationUser tracking = context.Set<ApplicationUser>().Where(e => e.Id == id).AsQueryable().FirstOrDefault();
             context.SaveChanges();
             context.Database.CloseConnection();
-            return queriedValue;
+            return tracking;
         }
     }
 }

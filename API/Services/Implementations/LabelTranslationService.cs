@@ -1,7 +1,6 @@
 ﻿using API.Dao.Converter;
 using BioterapeutDAL.Models.Classes;
 using BioterapeutDAL.Repositories.Interfaces;
-using BioterapeutDAL.Repository.Implementations.Classes;
 using DAO.Converters;
 using System.Collections.Generic;
 

@@ -1,13 +1,8 @@
 ﻿using API.Dao;
-using API.Dao.Converter;
 using BioterapeutDAL.Models.Classes;
 using BioterapeutDAL.Repositories.Interfaces;
-using BioterapeutDAL.Repository.Implementations.Classes;
 using DAO.Converters;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace API.Services.Implementations
 {
